@@ -1,0 +1,18 @@
+  
+  Psuedo code FOV/LOS algorithm
+
+  For each block
+  {
+     if the block is within the players view radius
+     {
+        draw a virtual line from the player to the block
+        for each block on the line
+        {
+           set it as visible initially
+           if it is a wall/door/object that blocks vision, or any previous blocks have been blocking objects
+           {
+              the block = non-visible
+           }
+        }
+     }
+  }

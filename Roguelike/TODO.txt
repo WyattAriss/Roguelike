@@ -1,0 +1,7 @@
+- Need to re-write the way the dungeon is drawn - COMPLETED
+- Change inventory system to fit with new level drawing - COMPLETED
+- field of view algorithm
+- move weapons/items to database
+- working equip system
+- working monsters
+- randomly generated dungeons
