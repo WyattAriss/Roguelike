@@ -15,7 +15,7 @@
 .	.
 .	.
 */
-#pragma endregion List of weapon identifiers
+#pragma endregion
 
 Weapon::Weapon(char tile)
 {
@@ -23,6 +23,13 @@ Weapon::Weapon(char tile)
 
 	int weaponIdentifier = randomWeapon();
 
+	/* Should just need to be connected to the db, find the correct values and store
+	the in the correct spot */
+
+
+
+	// TODO: This is what I want to let a DB handle
+	/*
 	switch (weaponIdentifier)
 	{
 	case '0':
@@ -49,7 +56,7 @@ Weapon::Weapon(char tile)
 		_defense = 0;
 		_value = 10;
 		break;
-	default:
+	case '3':
 		_name = "Wooden Stick";
 		_damageType = 'N';
 		_weaponType = "Club";
@@ -57,7 +64,10 @@ Weapon::Weapon(char tile)
 		_defense = 0;
 		_value = 0;
 		break;
+	default:
+		break;
 	}
+	*/
 
 }
 

@@ -2,6 +2,7 @@
 - Change inventory system to fit with new level drawing - COMPLETED
 - field of view algorithm
 - move weapons/items to database
+- Use database to store save game information
 - working equip system
 - working monsters
 - randomly generated dungeons
