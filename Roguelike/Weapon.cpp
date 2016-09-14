@@ -2,6 +2,7 @@
 #include "Weapon.h"
 #include <ctime>
 #include <random>
+#include "sqlite3.h"
 
 #pragma region Weapon Identifiers:
 /*
